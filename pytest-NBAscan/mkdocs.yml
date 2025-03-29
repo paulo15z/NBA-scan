@@ -1,0 +1,10 @@
+site_name: pytest-NBAscan
+site_description: A simple plugin to use with pytest
+site_author: paulo
+
+theme: readthedocs
+
+repo_url: https://github.com/paulo15z/pytest-NBAscan
+
+pages:
+- Home: index.md

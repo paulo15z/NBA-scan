@@ -1,20 +1,20 @@
 ==============
-pytest-nbascan
+pytest-NBAscan
 ==============
 
-.. image:: https://img.shields.io/pypi/v/pytest-nbascan.svg
-    :target: https://pypi.org/project/pytest-nbascan
+.. image:: https://img.shields.io/pypi/v/pytest-NBAscan.svg
+    :target: https://pypi.org/project/pytest-NBAscan
     :alt: PyPI version
 
-.. image:: https://img.shields.io/pypi/pyversions/pytest-nbascan.svg
-    :target: https://pypi.org/project/pytest-nbascan
+.. image:: https://img.shields.io/pypi/pyversions/pytest-NBAscan.svg
+    :target: https://pypi.org/project/pytest-NBAscan
     :alt: Python versions
 
-.. image:: https://github.com/paulo15z/pytest-nbascan/actions/workflows/main.yml/badge.svg
-    :target: https://github.com/paulo15z/pytest-nbascan/actions/workflows/main.yml
+.. image:: https://github.com/paulo15z/pytest-NBAscan/actions/workflows/main.yml/badge.svg
+    :target: https://github.com/paulo15z/pytest-NBAscan/actions/workflows/main.yml
     :alt: See Build Status on GitHub Actions
 
-analise
+A simple plugin to use with pytest
 
 ----
 
@@ -36,9 +36,9 @@ Requirements
 Installation
 ------------
 
-You can install "pytest-nbascan" via `pip`_ from `PyPI`_::
+You can install "pytest-NBAscan" via `pip`_ from `PyPI`_::
 
-    $ pip install pytest-nbascan
+    $ pip install pytest-NBAscan
 
 
 Usage
@@ -54,7 +54,7 @@ the coverage at least stays the same before you submit a pull request.
 License
 -------
 
-Distributed under the terms of the `GNU GPL v3.0+`_ license, "pytest-nbascan" is free and open source software
+Distributed under the terms of the `BSD-3`_ license, "pytest-NBAscan" is free and open source software
 
 
 Issues
@@ -69,7 +69,7 @@ If you encounter any problems, please `file an issue`_ along with a detailed des
 .. _`GNU GPL v3.0`: https://www.gnu.org/licenses/gpl-3.0.txt
 .. _`Apache Software License 2.0`: https://www.apache.org/licenses/LICENSE-2.0
 .. _`cookiecutter-pytest-plugin`: https://github.com/pytest-dev/cookiecutter-pytest-plugin
-.. _`file an issue`: https://github.com/paulo15z/pytest-nbascan/issues
+.. _`file an issue`: https://github.com/paulo15z/pytest-NBAscan/issues
 .. _`pytest`: https://github.com/pytest-dev/pytest
 .. _`tox`: https://tox.readthedocs.io/en/latest/
 .. _`pip`: https://pypi.org/project/pip/

@@ -5,16 +5,16 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pytest-nbascan"
-description = "analise"
+name = "pytest-NBAscan"
+description = "A simple plugin to use with pytest"
 version = "0.1.0"
 readme = "README.rst"
 requires-python = ">=3.8"
 authors = [
-    { name = "NBA scan", email = "paulociee123@gmail.com" },
+    { name = "paulo", email = "paulociee123@gmail.com" },
 ]
 maintainers = [
-    { name = "NBA scan", email = "paulociee123@gmail.com" },
+    { name = "paulo", email = "paulociee123@gmail.com" },
 ]
 license = {file = "LICENSE"}
 classifiers = [
@@ -32,12 +32,12 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
-    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "License :: OSI Approved :: BSD License",
 ]
 dependencies = [
     "pytest>=6.2.0",
 ]
 [project.urls]
-Repository = "https://github.com/paulo15z/pytest-nbascan"
+Repository = "https://github.com/paulo15z/pytest-NBAscan"
 [project.entry-points.pytest11]
-nbascan = "pytest_idk.plugin"
+NBAscan = "pytest_nbascan.plugin"

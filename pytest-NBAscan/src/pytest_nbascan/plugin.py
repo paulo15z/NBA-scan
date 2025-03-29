@@ -2,7 +2,7 @@ import pytest
 
 
 def pytest_addoption(parser):
-    group = parser.getgroup('nbascan')
+    group = parser.getgroup('NBAscan')
     group.addoption(
         '--foo',
         action='store',
